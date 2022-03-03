@@ -1,7 +1,7 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "An app allowing users to edit, store, review, and delete notes using Node.js modules and Express.js",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,17 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
-  }
+    "express": "^4.16.4",
+    "inquirer": "^8.2.0",
+    "nanoid": "^3.3.1",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chentriangoes/NoteTaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chentriangoes/NoteTaker/issues"
+  },
+  "homepage": "https://github.com/chentriangoes/NoteTaker#readme"
 }
